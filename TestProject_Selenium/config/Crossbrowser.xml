@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite" thread-count="2" parallel="tests">
+
+	<test name="ChromeTest">
+
+		<parameter name="browser" value="Chrome" />
+
+		<classes>
+
+			<class name="testNG.TipsCB_TS_Size"></class>
+			<class name="testNG.Tipscrossbrowser"></class>
+
+		
+		</classes>
+
+	</test>
+
+   <test name="IETest">
+
+		<parameter name="browser" value="ie" />
+
+		<classes>
+
+			<class name="testNG.TipsCB_TS_Size"></class>
+			<class name="testNG.Tipscrossbrowser"></class>
+
+		</classes>
+
+	</test>
+
+</suite>
+

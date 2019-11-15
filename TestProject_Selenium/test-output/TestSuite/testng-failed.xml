@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]" parallel="tests">
+  <test thread-count="2" name="ChromeTest(failed)" parallel="tests">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testNG.TipsCB_TS_Size">
+        <methods>
+          <include name="ctiresearch"/>
+          <include name="dclosebrowswer"/>
+        </methods>
+      </class> <!-- testNG.TipsCB_TS_Size -->
+      <class name="testNG.Tipscrossbrowser">
+        <methods>
+          <include name="binvokebrowser" invocation-numbers="0"/>
+          <include name="dclosebrowswer"/>
+          <include name="csubmitorder"/>
+        </methods>
+      </class> <!-- testNG.Tipscrossbrowser -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="2" name="IETest(failed)" parallel="tests">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="testNG.TipsCB_TS_Size">
+        <methods>
+          <include name="ctiresearch"/>
+          <include name="dclosebrowswer"/>
+        </methods>
+      </class> <!-- testNG.TipsCB_TS_Size -->
+      <class name="testNG.Tipscrossbrowser">
+        <methods>
+          <include name="binvokebrowser" invocation-numbers="0"/>
+          <include name="csubmitorder"/>
+        </methods>
+      </class> <!-- testNG.Tipscrossbrowser -->
+    </classes>
+  </test> <!-- IETest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

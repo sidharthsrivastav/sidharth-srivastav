@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG" parallel="tests">
+	<test name= "Annotations">
+		<classes>
+			<class name="testNG.TestAnnotations" />
+		</classes>
+	</test>
+	<test name= "Dependency">
+		<classes>
+			<class name="testNG.TestDependency" />
+		</classes>
+	</test>
+</suite>
+

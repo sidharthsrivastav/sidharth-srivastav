@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG" parallel="tests">
+	<test name= "Chrome">
+		<classes>
+			<class name="testNG.GridTest1" />
+		</classes>
+	</test>
+	<test name= "IE">
+		<classes>
+			<class name="testNG.GridTest2" />
+		</classes>
+	</test>
+</suite>
+
