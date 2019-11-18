@@ -2,18 +2,18 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Failed suite [Default suite]" duration-ms="13885" started-at="2019-10-29T15:09:05Z" finished-at="2019-10-29T15:09:19Z">
+  <suite name="Default suite" duration-ms="67693" started-at="2019-11-15T20:05:22Z" finished-at="2019-11-15T20:06:30Z">
     <groups>
     </groups>
-    <test name="Default test(failed)" duration-ms="13885" started-at="2019-10-29T15:09:05Z" finished-at="2019-10-29T15:09:19Z">
+    <test name="Default test" duration-ms="67693" started-at="2019-11-15T20:05:22Z" finished-at="2019-11-15T20:06:30Z">
       <class name="testNG.Sikuli_test">
-        <test-method status="FAIL" signature="runSikuli()[pri:0, instance:testNG.Sikuli_test@50d0686]" name="runSikuli" duration-ms="13797" started-at="2019-10-29T15:09:05Z" finished-at="2019-10-29T15:09:19Z">
+        <test-method status="FAIL" signature="runSikuli()[pri:0, instance:testNG.Sikuli_test@13c27452]" name="runSikuli" duration-ms="67666" started-at="2019-11-15T20:05:22Z" finished-at="2019-11-15T20:06:30Z">
           <exception class="org.sikuli.script.FindFailed">
             <message>
-              <![CDATA[C:/Sid_Folder/Selenium/SikuliImages/username.jpg: (338x62) in S(0)[0,0 1920x1080] E:Y, T:3.0]]>
+              <![CDATA[C:/Sid_Folder/Selenium/SikuliImages/additemstoorder.jpg: (209x47) in S(0)[0,0 1600x900] E:Y, T:3.0]]>
             </message>
             <full-stacktrace>
-              <![CDATA[FindFailed: C:/Sid_Folder/Selenium/SikuliImages/username.jpg: (338x62) in S(0)[0,0 1920x1080] E:Y, T:3.0
+              <![CDATA[FindFailed: C:/Sid_Folder/Selenium/SikuliImages/additemstoorder.jpg: (209x47) in S(0)[0,0 1600x900] E:Y, T:3.0
   Line 2761, in file Region.java
 
 at org.sikuli.script.Region.wait(Region.java:2761)
@@ -21,7 +21,7 @@ at org.sikuli.script.Region.find(Region.java:2326)
 at org.sikuli.script.Region.getLocationFromTarget(Region.java:3220)
 at org.sikuli.script.Region.click(Region.java:3718)
 at org.sikuli.script.Region.click(Region.java:3703)
-at testNG.Sikuli_test.runSikuli(Sikuli_test.java:29)
+at testNG.Sikuli_test.runSikuli(Sikuli_test.java:84)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -54,6 +54,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- runSikuli -->
       </class> <!-- testNG.Sikuli_test -->
-    </test> <!-- Default test(failed) -->
-  </suite> <!-- Failed suite [Default suite] -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
