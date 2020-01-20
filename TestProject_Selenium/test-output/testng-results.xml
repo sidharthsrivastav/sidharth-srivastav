@@ -1,65 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="TestNG" duration-ms="22765" started-at="2020-01-20T19:09:59Z" finished-at="2020-01-20T19:10:21Z">
+  <suite name="Default suite" duration-ms="14902" started-at="2020-01-20T19:52:58Z" finished-at="2020-01-20T19:53:13Z">
     <groups>
     </groups>
-    <test name="Annotations" duration-ms="19710" started-at="2020-01-20T19:09:59Z" finished-at="2020-01-20T19:10:18Z">
+    <test name="Default test" duration-ms="14902" started-at="2020-01-20T19:52:58Z" finished-at="2020-01-20T19:53:13Z">
       <class name="testNG.TestAnnotations">
-        <test-method status="PASS" signature="bat()[pri:0, instance:testNG.TestAnnotations@687080dc]" name="bat" is-config="true" duration-ms="19637" started-at="2020-01-20T19:09:59Z" finished-at="2020-01-20T19:10:18Z">
+        <test-method status="PASS" signature="bat()[pri:0, instance:testNG.TestAnnotations@687080dc]" name="bat" is-config="true" duration-ms="14862" started-at="2020-01-20T19:52:58Z" finished-at="2020-01-20T19:53:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bat -->
-        <test-method status="PASS" signature="bc()[pri:0, instance:testNG.TestAnnotations@687080dc]" name="bc" is-config="true" duration-ms="1" started-at="2020-01-20T19:10:18Z" finished-at="2020-01-20T19:10:18Z">
+        <test-method status="PASS" signature="bc()[pri:0, instance:testNG.TestAnnotations@687080dc]" name="bc" is-config="true" duration-ms="1" started-at="2020-01-20T19:53:13Z" finished-at="2020-01-20T19:53:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bc -->
-        <test-method status="PASS" signature="bm()[pri:0, instance:testNG.TestAnnotations@687080dc]" name="bm" is-config="true" duration-ms="0" started-at="2020-01-20T19:10:18Z" finished-at="2020-01-20T19:10:18Z">
+        <test-method status="PASS" signature="bm()[pri:0, instance:testNG.TestAnnotations@687080dc]" name="bm" is-config="true" duration-ms="1" started-at="2020-01-20T19:53:13Z" finished-at="2020-01-20T19:53:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method status="PASS" signature="f1()[pri:0, instance:testNG.TestAnnotations@687080dc]" name="f1" duration-ms="3" started-at="2020-01-20T19:10:18Z" finished-at="2020-01-20T19:10:18Z">
+        <test-method status="PASS" signature="f1()[pri:0, instance:testNG.TestAnnotations@687080dc]" name="f1" duration-ms="9" started-at="2020-01-20T19:53:13Z" finished-at="2020-01-20T19:53:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f1 -->
-        <test-method status="PASS" signature="am()[pri:0, instance:testNG.TestAnnotations@687080dc]" name="am" is-config="true" duration-ms="1" started-at="2020-01-20T19:10:18Z" finished-at="2020-01-20T19:10:18Z">
+        <test-method status="PASS" signature="am()[pri:0, instance:testNG.TestAnnotations@687080dc]" name="am" is-config="true" duration-ms="0" started-at="2020-01-20T19:53:13Z" finished-at="2020-01-20T19:53:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- am -->
-        <test-method status="PASS" signature="f2()[pri:0, instance:testNG.TestAnnotations@687080dc]" name="f2" duration-ms="2" started-at="2020-01-20T19:10:18Z" finished-at="2020-01-20T19:10:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f2 -->
-        <test-method status="PASS" signature="bm()[pri:0, instance:testNG.TestAnnotations@687080dc]" name="bm" is-config="true" duration-ms="0" started-at="2020-01-20T19:10:18Z" finished-at="2020-01-20T19:10:18Z">
+        <test-method status="PASS" signature="bm()[pri:0, instance:testNG.TestAnnotations@687080dc]" name="bm" is-config="true" duration-ms="0" started-at="2020-01-20T19:53:13Z" finished-at="2020-01-20T19:53:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bm -->
-        <test-method status="PASS" signature="am()[pri:0, instance:testNG.TestAnnotations@687080dc]" name="am" is-config="true" duration-ms="1" started-at="2020-01-20T19:10:18Z" finished-at="2020-01-20T19:10:18Z">
+        <test-method status="PASS" signature="f2()[pri:0, instance:testNG.TestAnnotations@687080dc]" name="f2" duration-ms="1" started-at="2020-01-20T19:53:13Z" finished-at="2020-01-20T19:53:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- am -->
-        <test-method status="PASS" signature="ac()[pri:0, instance:testNG.TestAnnotations@687080dc]" name="ac" is-config="true" duration-ms="0" started-at="2020-01-20T19:10:18Z" finished-at="2020-01-20T19:10:18Z">
+        </test-method> <!-- f2 -->
+        <test-method status="PASS" signature="ac()[pri:0, instance:testNG.TestAnnotations@687080dc]" name="ac" is-config="true" duration-ms="0" started-at="2020-01-20T19:53:13Z" finished-at="2020-01-20T19:53:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ac -->
-        <test-method status="PASS" signature="aat()[pri:0, instance:testNG.TestAnnotations@687080dc]" name="aat" is-config="true" duration-ms="0" started-at="2020-01-20T19:10:18Z" finished-at="2020-01-20T19:10:18Z">
+        <test-method status="PASS" signature="am()[pri:0, instance:testNG.TestAnnotations@687080dc]" name="am" is-config="true" duration-ms="0" started-at="2020-01-20T19:53:13Z" finished-at="2020-01-20T19:53:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="aat()[pri:0, instance:testNG.TestAnnotations@687080dc]" name="aat" is-config="true" duration-ms="0" started-at="2020-01-20T19:53:13Z" finished-at="2020-01-20T19:53:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aat -->
       </class> <!-- testNG.TestAnnotations -->
-    </test> <!-- Annotations -->
-    <test name="Dependency" duration-ms="22765" started-at="2020-01-20T19:09:59Z" finished-at="2020-01-20T19:10:21Z">
-      <class name="testNG.TestDependency">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testNG.TestDependency@eafc191]" name="openBrowser" duration-ms="21204" started-at="2020-01-20T19:09:59Z" finished-at="2020-01-20T19:10:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="login()[pri:0, instance:testNG.TestDependency@eafc191]" name="login" duration-ms="1358" started-at="2020-01-20T19:10:20Z" depends-on-methods="testNG.TestDependency.openBrowser" finished-at="2020-01-20T19:10:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- testNG.TestDependency -->
-    </test> <!-- Dependency -->
-  </suite> <!-- TestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
