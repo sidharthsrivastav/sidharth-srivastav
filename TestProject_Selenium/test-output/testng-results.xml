@@ -1,59 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="67693" started-at="2019-11-15T20:05:22Z" finished-at="2019-11-15T20:06:30Z">
+  <suite name="TestNG" duration-ms="22765" started-at="2020-01-20T19:09:59Z" finished-at="2020-01-20T19:10:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="67693" started-at="2019-11-15T20:05:22Z" finished-at="2019-11-15T20:06:30Z">
-      <class name="testNG.Sikuli_test">
-        <test-method status="FAIL" signature="runSikuli()[pri:0, instance:testNG.Sikuli_test@13c27452]" name="runSikuli" duration-ms="67666" started-at="2019-11-15T20:05:22Z" finished-at="2019-11-15T20:06:30Z">
-          <exception class="org.sikuli.script.FindFailed">
-            <message>
-              <![CDATA[C:/Sid_Folder/Selenium/SikuliImages/additemstoorder.jpg: (209x47) in S(0)[0,0 1600x900] E:Y, T:3.0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[FindFailed: C:/Sid_Folder/Selenium/SikuliImages/additemstoorder.jpg: (209x47) in S(0)[0,0 1600x900] E:Y, T:3.0
-  Line 2761, in file Region.java
-
-at org.sikuli.script.Region.wait(Region.java:2761)
-at org.sikuli.script.Region.find(Region.java:2326)
-at org.sikuli.script.Region.getLocationFromTarget(Region.java:3220)
-at org.sikuli.script.Region.click(Region.java:3718)
-at org.sikuli.script.Region.click(Region.java:3703)
-at testNG.Sikuli_test.runSikuli(Sikuli_test.java:84)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.sikuli.script.FindFailed -->
+    <test name="Annotations" duration-ms="19710" started-at="2020-01-20T19:09:59Z" finished-at="2020-01-20T19:10:18Z">
+      <class name="testNG.TestAnnotations">
+        <test-method status="PASS" signature="bat()[pri:0, instance:testNG.TestAnnotations@687080dc]" name="bat" is-config="true" duration-ms="19637" started-at="2020-01-20T19:09:59Z" finished-at="2020-01-20T19:10:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runSikuli -->
-      </class> <!-- testNG.Sikuli_test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- bat -->
+        <test-method status="PASS" signature="bc()[pri:0, instance:testNG.TestAnnotations@687080dc]" name="bc" is-config="true" duration-ms="1" started-at="2020-01-20T19:10:18Z" finished-at="2020-01-20T19:10:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method status="PASS" signature="bm()[pri:0, instance:testNG.TestAnnotations@687080dc]" name="bm" is-config="true" duration-ms="0" started-at="2020-01-20T19:10:18Z" finished-at="2020-01-20T19:10:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="f1()[pri:0, instance:testNG.TestAnnotations@687080dc]" name="f1" duration-ms="3" started-at="2020-01-20T19:10:18Z" finished-at="2020-01-20T19:10:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="am()[pri:0, instance:testNG.TestAnnotations@687080dc]" name="am" is-config="true" duration-ms="1" started-at="2020-01-20T19:10:18Z" finished-at="2020-01-20T19:10:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="f2()[pri:0, instance:testNG.TestAnnotations@687080dc]" name="f2" duration-ms="2" started-at="2020-01-20T19:10:18Z" finished-at="2020-01-20T19:10:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+        <test-method status="PASS" signature="bm()[pri:0, instance:testNG.TestAnnotations@687080dc]" name="bm" is-config="true" duration-ms="0" started-at="2020-01-20T19:10:18Z" finished-at="2020-01-20T19:10:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="am()[pri:0, instance:testNG.TestAnnotations@687080dc]" name="am" is-config="true" duration-ms="1" started-at="2020-01-20T19:10:18Z" finished-at="2020-01-20T19:10:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="ac()[pri:0, instance:testNG.TestAnnotations@687080dc]" name="ac" is-config="true" duration-ms="0" started-at="2020-01-20T19:10:18Z" finished-at="2020-01-20T19:10:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ac -->
+        <test-method status="PASS" signature="aat()[pri:0, instance:testNG.TestAnnotations@687080dc]" name="aat" is-config="true" duration-ms="0" started-at="2020-01-20T19:10:18Z" finished-at="2020-01-20T19:10:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aat -->
+      </class> <!-- testNG.TestAnnotations -->
+    </test> <!-- Annotations -->
+    <test name="Dependency" duration-ms="22765" started-at="2020-01-20T19:09:59Z" finished-at="2020-01-20T19:10:21Z">
+      <class name="testNG.TestDependency">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testNG.TestDependency@eafc191]" name="openBrowser" duration-ms="21204" started-at="2020-01-20T19:09:59Z" finished-at="2020-01-20T19:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testNG.TestDependency@eafc191]" name="login" duration-ms="1358" started-at="2020-01-20T19:10:20Z" depends-on-methods="testNG.TestDependency.openBrowser" finished-at="2020-01-20T19:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- testNG.TestDependency -->
+    </test> <!-- Dependency -->
+  </suite> <!-- TestNG -->
 </testng-results>
